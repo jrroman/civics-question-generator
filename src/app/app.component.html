@@ -2,16 +2,21 @@
 <h3 *ngIf="questionNumber < 11"><p>Question {{ questionNumber }}: {{ displayQuestion() }}</h3>
 <h3 *ngIf="questionNumber === 11">{{ calculateScore() }}</h3>
 <input (keydown)="checkAnswer($event.keyCode)" id="user-input" type="text" name="answer" value="" />
-<input (click)="showAnswer()" class="help-btn" value="Need Help? Show Answer" />
+<input (click)="showAnswer()" class="help-btn" value="Display Answer" />
 <ul *ngIf="showAns">
-	<li *ngFor="let ans of previewAnswer">{{ ans }}</li>
+	<li *ngFor="let ans of answerHelper()">{{ ans }}</li>
 </ul>
 <ul *ngIf="localHistory" class="history-list">
 	<li *ngFor="let history of localHistory">
 		<ul class="history-results">
-			<li><b>Question</b>: {{ history.question }}</li>
-			<li><b>Answer</b>: {{ history.answer }}</li>
 			<li><b>Status</b>: {{ history.answerStatus }}</li>
+			<li><b>Question</b>: {{ history.question }}</li>
+			<li><b>Your Answer</b>: {{ history.answer }}</li>
+			<li><b>Correct Answer</b>:
+				<ul>
+					<li *ngFor="let realAns of history.realAnswer">{{ realAns }}</li>
+				</ul>
+			</li>
 		</ul>
 	</li>
 </ul>

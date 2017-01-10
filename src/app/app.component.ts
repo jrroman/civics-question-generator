@@ -1035,9 +1035,7 @@ export class AppComponent {
 	}
 
 	showAns = false;
-	previewAnswer = this.civics[this.idx].answer;
 	showAnswer(): boolean {
-		console.log('firing');
 		if (!this.showAns) {
 			this.showAns = true;
 			return this.showAns;
@@ -1045,14 +1043,19 @@ export class AppComponent {
 		this.showAns = false;
 	}
 
+	answerHelper() {
+		let previewAnswer = this.civics[this.idx].answer;
+		return previewAnswer;
+	}
+
 
 	localHistory = [];
 	saveHistory(state): Array<any> {
 		this.localHistory.push(state);
-		return this.localHistory;
 		if (this.questionNumber == 11) {
 			this.localHistory = [];
 		}
+		return this.localHistory;
 	}
 
 	answerStatus = '';
@@ -1077,15 +1080,16 @@ export class AppComponent {
 				console.log('incorrect');
 				this.answerStatus = 'Incorrect...';
 			}
-
 			let history = {
 				'question': this.civics[this.idx].question,
 				'answer': userAnswer,
+				'realAnswer': correctAnswer,
 				'answerStatus': this.answerStatus,
 			}
 			this.saveHistory(history);
 
 			(<HTMLInputElement>document.querySelector('#user-input')).value = '';
+			this.showAns = false;
 			this.clickCount();
 		}
 	}
