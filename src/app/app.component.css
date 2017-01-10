@@ -1,0 +1,17 @@
+.help-btn {
+	display: block;
+	margin-top: 20px;
+	font-size: .9em;
+	font-weight: bold;
+	border: 2px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.history-list {
+	/*list-style: none;*/
+}
+.history-results {
+	list-style: none;
+}

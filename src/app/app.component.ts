@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 	civics = [
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What is the supreme law of the land?',
 			'answer': [
@@ -15,6 +16,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What does the Constitution do?',
 			'answer': [
@@ -24,6 +26,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'The idea of self-government is in the first three words of the Constitution. What are these words?',
 			'answer': [
@@ -31,6 +34,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What is an amendment?',
 			'answer': [
@@ -39,6 +43,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What do we call the first ten amendments?',
 			'answer': [
@@ -46,6 +51,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What is one right or freedom from the First Amendment?*',
 			'answer': [
@@ -57,6 +63,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'How many amendments does the Constitution have?',
 			'answer': [
@@ -65,6 +72,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What did the Declaration of Independence do?',
 			'answer': [
@@ -74,6 +82,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': 2,
 			'type': 'Principles of American Democracy',
 			'question': 'What are two rights in the Declaration of Independence?',
 			'answer': [
@@ -83,6 +92,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What is freedom of religion?',
 			'answer': [
@@ -90,6 +100,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What is the economic system in the United States?*',
 			'answer': [
@@ -98,6 +109,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Principles of American Democracy',
 			'question': 'What is the “rule of law”?',
 			'answer': [
@@ -108,6 +120,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Name one branch or part of the government.*',
 			'answer': [
@@ -120,6 +133,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What stops one branch of government from becoming too powerful?',
 			'answer': [
@@ -128,6 +142,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who is in charge of the executive branch?',
 			'answer': [
@@ -135,6 +150,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who makes federal laws?',
 			'answer': [
@@ -142,6 +158,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'How many U.S. Senators are there?',
 			'answer': [
@@ -150,6 +167,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'We elect a U.S. Senator for how many years?',
 			'answer': [
@@ -158,6 +176,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who is one of your state’s U.S. Senators now?*',
 			'answer': [
@@ -166,6 +185,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'The House of Representatives has how many voting members',
 			'answer': [
@@ -174,6 +194,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'We elect a U.S. Representative for how many years?',
 			'answer': [
@@ -182,6 +203,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Name your U.S. Representative.',
 			'answer': [
@@ -189,6 +211,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who does a U.S. Senator represent?',
 			'answer': [
@@ -196,15 +219,19 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Why do some states have more Representatives than other states?',
 			'answer': [
 				'the states population',
+				'state population',
+				'population',
 				'they have more people',
 				'some states have more people'
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'We elect a President for how many years?',
 			'answer': [
@@ -213,6 +240,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'In what month do we vote for President?',
 			'answer': [
@@ -220,6 +248,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What is the name of the President of the United States now?*',
 			'answer': [
@@ -228,6 +257,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What is the name of the Vice President of the United States now?',
 			'answer': [
@@ -237,6 +267,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'If the President can no longer serve, who becomes President?',
 			'answer': [
@@ -244,6 +275,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'If both the President and the Vice President can no longer serve, who becomes President?',
 			'answer': [
@@ -251,6 +283,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who is the Commander in Chief of the military?',
 			'answer': [
@@ -258,6 +291,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who signs bills to become laws?',
 			'answer': [
@@ -265,6 +299,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who vetoes bills?',
 			'answer': [
@@ -272,13 +307,16 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What does the President\'s cabinet do?',
 			'answer': [
-				'advises the President'
+				'advises the President',
+				'advise the President'
 			]
 		},
 		{
+			'multiAnswer': 2,
 			'type': 'System of Government',
 			'question': 'What are two Cabinet-level positions?',
 			'answer': [
@@ -301,6 +339,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What does the judicial branch do?',
 			'answer': [
@@ -311,6 +350,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What is the highest court in the United States?',
 			'answer': [
@@ -318,6 +358,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'How many justices are on the Supreme Court?',
 			'answer': [
@@ -326,6 +367,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who is the Chief Justice of the United States now?',
 			'answer': [
@@ -334,6 +376,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Under our Constitution, some powers belong to the federal government. What is one power of the federal government?',
 			'answer': [
@@ -344,6 +387,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Under our Constitution, some powers belong to the states. What is one power of the states?',
 			'answer': [
@@ -355,6 +399,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'Who is the Governor of your state now',
 			'answer': [
@@ -362,6 +407,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What is the capital of your state?*',
 			'answer': [
@@ -369,6 +415,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': 2,
 			'type': 'System of Government',
 			'question': 'What are the two major political parties in the United States?*',
 			'answer': [
@@ -376,6 +423,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What is the political party of the President now?',
 			'answer': [
@@ -383,6 +431,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'System of Government',
 			'question': 'What is the name of the Speaker of the House of Representatives now?',
 			'answer': [
@@ -391,6 +440,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'There are four amendments to the Constitution about who can vote. Describe one of them',
 			'answer': [
@@ -401,6 +451,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'What is one responsibility that is only for United States citizens?*',
 			'answer': [
@@ -409,6 +460,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'Name one right only for United States citizens.',
 			'answer': [
@@ -417,6 +469,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'What are two rights of everyone living in the United States?',
 			'answer': [
@@ -429,6 +482,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'What do we show loyalty to when we say the Pledge of Allegiance?',
 			'answer': [
@@ -437,6 +491,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'What is one promise you make when you become a United States citizen?',
 			'answer': [
@@ -449,6 +504,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'How old do citizens have to be to vote for President?*',
 			'answer': [
@@ -457,6 +513,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'What are two ways that Americans can participate in their democracy?',
 			'answer': [
@@ -473,6 +530,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'When is the last day you can send in federal income tax forms?*',
 			'answer': [
@@ -480,6 +538,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Rights and Responsibilities',
 			'question': 'When must all men register for the Selective Service?',
 			'answer': [
@@ -490,6 +549,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'What is one reason colonists came to America?',
 			'answer': [
@@ -502,6 +562,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'Who lived in America before the Europeans arrived?',
 			'answer': [
@@ -510,6 +571,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'What group of people was taken to America and sold as slaves?',
 			'answer': [
@@ -518,6 +580,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'Why did the colonists fight the British?',
 			'answer': [
@@ -529,6 +592,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'Who wrote the Declaration of Independence?',
 			'answer': [
@@ -536,6 +600,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'When was the Declaration of Independence adopted?',
 			'answer': [
@@ -543,6 +608,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': 3,
 			'type': 'Colonial Period and Independence',
 			'question': 'There were 13 original states. Name three.',
 			'answer': [
@@ -562,6 +628,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'What happened at the Constitutional Convention?',
 			'answer': [
@@ -570,6 +637,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'When was the Constitution written',
 			'answer': [
@@ -577,6 +645,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.',
 			'answer': [
@@ -587,6 +656,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'What is one thing Benjamin Franklin is famous for?',
 			'answer': [
@@ -597,6 +667,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'Who is the "Father of Our Country"?',
 			'answer': [
@@ -604,6 +675,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Colonial Period and Independence',
 			'question': 'Who was the first President?',
 			'answer': [
@@ -611,6 +683,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'What territory did the United States buy from France in 1803?',
 			'answer': [
@@ -619,16 +692,20 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'Name one war fought by the United States in the 1800s.',
 			'answer': [
 				'War of 1812',
 				'Mexican American War',
+				'Mexican-American War',
 				'Civil War',
-				'Spanish American War'
+				'Spanish American War',
+				'Spanish-American War'
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'Name the U.S. war between the North and the South.',
 			'answer': [
@@ -637,6 +714,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'Name one problem that led to the Civil War.',
 			'answer': [
@@ -646,6 +724,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'What was one important thing that Abraham Lincoln did?*',
 			'answer': [
@@ -655,6 +734,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'What did the Emancipation Proclamation do?',
 			'answer': [
@@ -665,6 +745,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': '1800s',
 			'question': 'What did Susan B. Anthony do?',
 			'answer': [
@@ -673,6 +754,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'Name one war fought by the United States in the 1900s.*',
 			'answer': [
@@ -684,6 +766,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'Who was President during World War I',
 			'answer': [
@@ -691,6 +774,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'Who was the President during the Great Depression and World War II?',
 			'answer': [
@@ -698,6 +782,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'Who did the Unted States fight in World War II',
 			'answer': [
@@ -705,6 +790,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'Before he was President, Eisenhower was a general. What war was he in?',
 			'answer': [
@@ -713,6 +799,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'During the Cold War, what was the main concern of the United States',
 			'answer': [
@@ -720,6 +807,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'What movement tried to end radical discrimination?',
 			'answer': [
@@ -727,6 +815,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'What did Martin Luther King, Jr. do?*',
 			'answer': [
@@ -735,6 +824,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'What major event happened on September 11th, 2001, in the United States?',
 			'answer': [
@@ -742,6 +832,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Recent American History and Other Important Historical Information',
 			'question': 'Name one American Indian tribe in the United States.',
 			'answer': [
@@ -770,14 +861,18 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Name one of the longest rivers in the United States.',
 			'answer': [
+				'Missouri',
 				'Missouri River',
+				'Mississippi',
 				'Mississippi River'
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'What ocean is on the West Coast of the United States?',
 			'answer': [
@@ -786,6 +881,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'What ocean is on the East Coast of the United States',
 			'answer': [
@@ -794,6 +890,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Name one U.S. territory',
 			'answer': [
@@ -806,6 +903,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Name one state that borders Canada.',
 			'answer': [
@@ -825,6 +923,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Name one state that borders Mexico.',
 			'answer': [
@@ -835,6 +934,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'What is the capital of the United States?*',
 			'answer': [
@@ -844,6 +944,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Where is the Statue of Liberty?*',
 			'answer': [
@@ -855,6 +956,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Why does the flag have 13 stripes?',
 			'answer': [
@@ -863,6 +965,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'Why does the flag have 50 stars?*',
 			'answer': [
@@ -872,6 +975,7 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Geography',
 			'question': 'What is the name of the national anthem?',
 			'answer': [
@@ -879,13 +983,17 @@ export class AppComponent {
 			]
 		},
 		{
+			'multiAnswer': false,
 			'type': 'Holidays',
 			'question': 'When do we celebrate Independence Day?*',
 			'answer': [
-				'July 4th'
+				'July 4th',
+				'July 4',
+				'Fourth of July'
 			]
 		},
 		{
+			'multiAnswer': 2,
 			'type': 'Holidays',
 			'question': 'Name two national U.S. holidays.',
 			'answer': [
@@ -906,6 +1014,7 @@ export class AppComponent {
 	constructor() {}
 
 	idx: number = Math.floor(Math.random() * this.civics.length);
+	multipleAnswers = this.civics[this.idx].multiAnswer;
 	displayQuestion(): string {
 		return this.civics[this.idx].question;
 	}
@@ -921,10 +1030,32 @@ export class AppComponent {
 	}
 
 	correct = 0;
-	calculateScore() {
+	calculateScore(): string {
 		return "Your score is: " + (this.correct / 10) * 100 + "%";
 	}
 
+	showAns = false;
+	previewAnswer = this.civics[this.idx].answer;
+	showAnswer(): boolean {
+		console.log('firing');
+		if (!this.showAns) {
+			this.showAns = true;
+			return this.showAns;
+		}
+		this.showAns = false;
+	}
+
+
+	localHistory = [];
+	saveHistory(state): Array<any> {
+		this.localHistory.push(state);
+		return this.localHistory;
+		if (this.questionNumber == 11) {
+			this.localHistory = [];
+		}
+	}
+
+	answerStatus = '';
 	checkAnswer(event): void {
 		if (event === 13) {
 			let correctAnswer: any = this.civics[this.idx].answer;
@@ -939,11 +1070,20 @@ export class AppComponent {
 				console.log("user: ", lowerUserAnswer);
 				console.log('correct');
 				this.correct++;
+				this.answerStatus = 'Correct!';
 			} else {
 				console.log("correct: ", lowerCorrectAnswer);
 				console.log("user: ", lowerUserAnswer);
 				console.log('incorrect');
+				this.answerStatus = 'Incorrect...';
 			}
+
+			let history = {
+				'question': this.civics[this.idx].question,
+				'answer': userAnswer,
+				'answerStatus': this.answerStatus,
+			}
+			this.saveHistory(history);
 
 			(<HTMLInputElement>document.querySelector('#user-input')).value = '';
 			this.clickCount();

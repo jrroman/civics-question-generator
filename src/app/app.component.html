@@ -2,3 +2,16 @@
 <h3 *ngIf="questionNumber < 11"><p>Question {{ questionNumber }}: {{ displayQuestion() }}</h3>
 <h3 *ngIf="questionNumber === 11">{{ calculateScore() }}</h3>
 <input (keydown)="checkAnswer($event.keyCode)" id="user-input" type="text" name="answer" value="" />
+<input (click)="showAnswer()" class="help-btn" value="Need Help? Show Answer" />
+<ul *ngIf="showAns">
+	<li *ngFor="let ans of previewAnswer">{{ ans }}</li>
+</ul>
+<ul *ngIf="localHistory" class="history-list">
+	<li *ngFor="let history of localHistory">
+		<ul class="history-results">
+			<li><b>Question</b>: {{ history.question }}</li>
+			<li><b>Answer</b>: {{ history.answer }}</li>
+			<li><b>Status</b>: {{ history.answerStatus }}</li>
+		</ul>
+	</li>
+</ul>
