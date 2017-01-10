@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<h3 *ngIf="questionNumber < 11">{{ displayType() }}</h3>
+<h3 *ngIf="questionNumber < 11"><p>Question {{ questionNumber }}: {{ displayQuestion() }}</h3>
+<h3 *ngIf="questionNumber === 11">{{ calculateScore() }}</h3>
+<input (keydown)="checkAnswer($event.keyCode)" id="user-input" type="text" name="answer" value="" />
